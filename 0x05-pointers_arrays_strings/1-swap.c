@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * swap_int -swaps the values of two integers 
+ * swap_int - swaps the values of two integers 
  *             using two input parameters
  *
  * @a: input parameter 1
- * @v: input parameter 2
+ * @b: input parameter 2
  *
  * Return: Nothing
  */
@@ -13,7 +13,7 @@ void swap_int(int *a, int *b)
 {
 	int temp;
 
-	temp= *a;
+	temp = *a;
 	*a = *b;
 	*b = temp;
 }
